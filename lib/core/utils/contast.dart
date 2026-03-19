@@ -9,5 +9,8 @@ class Constant {
   static const String popularmovie =
       '${baseurl}/movie/popular?api_key=${Apikey}';
 
-  static const String  toprealted= '${baseurl}/movie/top_rated?api_key=${Apikey}';
+  static const String toprealted =
+      '${baseurl}/movie/top_rated?api_key=${Apikey}';
+  static const String baseImageUrl = 'https://image.tmdb.org/t/p/w500';
+  static String imageurl(String path) => '$baseImageUrl$path';
 }
