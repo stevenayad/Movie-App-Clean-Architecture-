@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:movie_app/core/contast.dart';
+import 'package:movie_app/core/utils/contast.dart';
 import 'package:movie_app/core/error/execptions.dart';
 import 'package:movie_app/core/network/error_message_model.dart';
 import 'package:movie_app/movie/data/models/moviemodel.dart';
